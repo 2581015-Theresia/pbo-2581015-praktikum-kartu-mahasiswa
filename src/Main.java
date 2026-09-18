@@ -31,15 +31,15 @@ public class Main {
 
         //Menampilkan Kartu Mahasiswa
         System.out.println();
-        System.out println("======== KARTU MAHASISWA ========");
+        System.out.println("======== KARTU MAHASISWA ========");
         System.out.println("Nama         :" + namaLengkap);
         System.out.println("NIK          :" + nik);
         System.out.println("Umur         :" + umur);
         System.out.println("Tinggi       :" + tinggiBadan);
         System.out.println("Gol darah    :" + golonganDarah);
-        System.out.println("Menikah      :") + sudahMenikah);
+        System.out.println("Menikah      :" + sudahMenikah);
 
-scanner close();
+        scanner.close();
 
 
     }
