@@ -13,6 +13,19 @@ public class Main {
         System.out.print("Umur           :");
         int umur = scanner.nextInt();
 
-        //Data 3:
+        //Data 3: Tinggi badan
+        System.out.print("Tinggi badan (cm):");
+        double tinggiBadan = scanner.nextDouble();
+
+        //Data 4: Golonogan darah
+        System.out.print("Golongan darah   :");
+        char golonganDarah = scanner.next().charAt(0);
+
+        // Data 5: Status menikah
+        System.out.print("Sudah menikah   : ");
+        boolean sudahMenikah = scanner.nextBoolean();
+
+
+
     }
 }
