@@ -9,7 +9,7 @@ public class Main {
         System.out.print("NIK (16 digit) :");
         long nik = scanner.nextLong();
 
-        //Dta 2: Umur
+        //Data 2: Umur
         System.out.print("Umur           :");
         int umur = scanner.nextInt();
 
@@ -25,6 +25,21 @@ public class Main {
         System.out.print("Sudah menikah   : ");
         boolean sudahMenikah = scanner.nextBoolean();
 
+        //Data 6: Nama lengkap
+        System.out.print("Nama lengkap    :");
+        String namaLengkap = scanner.nextLine();
+
+        //Menampilkan Kartu Mahasiswa
+        System.out.println();
+        System.out println("======== KARTU MAHASISWA ========");
+        System.out.println("Nama         :" + namaLengkap);
+        System.out.println("NIK          :" + nik);
+        System.out.println("Umur         :" + umur);
+        System.out.println("Tinggi       :" + tinggiBadan);
+        System.out.println("Gol darah    :" + golonganDarah);
+        System.out.println("Menikah      :") + sudahMenikah);
+
+scanner close();
 
 
     }
